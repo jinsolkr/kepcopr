@@ -5,14 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		    <script language="javascript">
- function time(){
-  var time= new Date(); //시간받기위해서 new date
-      document.getElementById("now").innerHTML=time.getHours()+"시"+time.getMinutes()+"분"+time.getSeconds()+"초";
-     setInterval("time()",1000);     //1초 지난후 time()실행
-  }
-      </script>
-		
+	
 	</head>
 	<body class="is-preload">
 
@@ -207,7 +200,6 @@
 					</div>
 					<footer>
 						<p>한국전력 제주본부 경영지원부 인턴사원 박병영</p>
-						 <h2> 현재 시간: <span id="now"></span></h2>
 					</footer>
 				</div>
 			</article>
@@ -217,6 +209,8 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script> var a = new Date();
+				document.write(a+ "<br>"); </script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
